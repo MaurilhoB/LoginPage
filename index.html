@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+            *{
+                margin: 0;
+                padding: 0;
+                font-family: Verdana, Geneva, Tahoma, sans-serif
+            }
+            body{
+                background: #3F51B5;
+            }
+            section{
+                color: white;
+                margin: auto;
+                max-width: 300px;
+                margin-top: 25vh;
+            }
+            h1{
+                margin-bottom: 10px;
+            }
+            input{
+                font-size: 15px;
+                color: white;
+                background: none;
+                border-radius: 5px;
+                border: 1px solid #7986CB;
+                outline: none;
+                display: block;
+                width: 100%;
+                padding: 14px 15px;
+                margin: 4px 0;
+                box-sizing: border-box;
+            }
+            input:focus{
+                padding: 14px 18px;
+                border-color: #E0F7FA;
+                box-shadow: 0 0 2em #E0F7FA;
+            }
+            input::placeholder{
+                color: rgba(255, 255, 255, 0.795);
+            }
+            #send_btn{
+                font-size: 18px;
+                font-weight: 500;
+                width: 100%;
+                background: none;
+            }
+            #send_btn:hover{
+                background: #9FA8DA;
+                padding: 16px 0px;
+            }
+    </style>
+</head>
+<body>
+   <header>
+
+   </header>
+   <main>
+       <section class="login_form">
+            <h1>Login</h1>
+           <form action="#" method="get">
+                <input id="user" type="text" placeholder="E-mail or User"/>
+                <input id="pass" type="password" placeholder="Your Password"/>
+                <input id="send_btn" type="submit" value="Login" />
+           </form>
+       </section>
+   </main>
+</body>
+</html>
